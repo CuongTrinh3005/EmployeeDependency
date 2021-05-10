@@ -105,7 +105,7 @@ namespace NHANVIEN_CDCNPM
             //return "SELECT [MANV],[HO],[TEN],[PHAI],[DIACHI],[NGAYSINH],[LUONG] " +
             //    "FROM[NV_CDCNPM].[dbo].[NHANVIEN]";
 
-            return "select manv as [Mã NV],Ho as [Họ],Ten as [Tên],phai as [Phái],diachi as [Địa chỉ], ngaysinh as [Ngày sinh], luong as [Lương] from dbo.Nhanvien order by manv";
+            return "select manv as [Mã NV],Ho as [Họ],Ten as [Tên],phai as [Phái],diachi as [Địa chỉ], ngaysinh as [Ngày sinh], luong as [Lương] from dbo.Nhanvien";
         }
 
         private void OnDependencyChange(object sender, SqlNotificationEventArgs e)
