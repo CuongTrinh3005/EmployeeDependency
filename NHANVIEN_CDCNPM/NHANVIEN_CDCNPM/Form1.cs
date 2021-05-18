@@ -137,7 +137,6 @@ namespace NHANVIEN_CDCNPM
             // At this point, the code is executing on the
             // UI thread, so it is safe to update the UI.
             changeCount += 1;
-            Program.isChange = true;
             this.label1.Text = string.Format(statusMessage, changeCount);
 
             // Add information from the event arguments to the list box

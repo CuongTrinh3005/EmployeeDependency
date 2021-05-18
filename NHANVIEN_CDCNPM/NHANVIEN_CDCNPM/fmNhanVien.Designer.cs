@@ -84,7 +84,7 @@ namespace NHANVIEN_CDCNPM
             // hOLabel
             // 
             hOLabel.AutoSize = true;
-            hOLabel.Location = new System.Drawing.Point(238, 376);
+            hOLabel.Location = new System.Drawing.Point(243, 293);
             hOLabel.Name = "hOLabel";
             hOLabel.Size = new System.Drawing.Size(26, 13);
             hOLabel.TabIndex = 7;
@@ -93,7 +93,7 @@ namespace NHANVIEN_CDCNPM
             // tENLabel
             // 
             tENLabel.AutoSize = true;
-            tENLabel.Location = new System.Drawing.Point(436, 380);
+            tENLabel.Location = new System.Drawing.Point(441, 297);
             tENLabel.Name = "tENLabel";
             tENLabel.Size = new System.Drawing.Size(32, 13);
             tENLabel.TabIndex = 9;
@@ -102,7 +102,7 @@ namespace NHANVIEN_CDCNPM
             // pHAILabel
             // 
             pHAILabel.AutoSize = true;
-            pHAILabel.Location = new System.Drawing.Point(659, 380);
+            pHAILabel.Location = new System.Drawing.Point(664, 297);
             pHAILabel.Name = "pHAILabel";
             pHAILabel.Size = new System.Drawing.Size(35, 13);
             pHAILabel.TabIndex = 11;
@@ -111,7 +111,7 @@ namespace NHANVIEN_CDCNPM
             // dIACHILabel
             // 
             dIACHILabel.AutoSize = true;
-            dIACHILabel.Location = new System.Drawing.Point(448, 418);
+            dIACHILabel.Location = new System.Drawing.Point(453, 335);
             dIACHILabel.Name = "dIACHILabel";
             dIACHILabel.Size = new System.Drawing.Size(46, 13);
             dIACHILabel.TabIndex = 13;
@@ -120,7 +120,7 @@ namespace NHANVIEN_CDCNPM
             // lUONGLabel
             // 
             lUONGLabel.AutoSize = true;
-            lUONGLabel.Location = new System.Drawing.Point(216, 422);
+            lUONGLabel.Location = new System.Drawing.Point(221, 339);
             lUONGLabel.Name = "lUONGLabel";
             lUONGLabel.Size = new System.Drawing.Size(48, 13);
             lUONGLabel.TabIndex = 17;
@@ -129,7 +129,7 @@ namespace NHANVIEN_CDCNPM
             // nGAYSINHLabel
             // 
             nGAYSINHLabel.AutoSize = true;
-            nGAYSINHLabel.Location = new System.Drawing.Point(29, 418);
+            nGAYSINHLabel.Location = new System.Drawing.Point(34, 335);
             nGAYSINHLabel.Name = "nGAYSINHLabel";
             nGAYSINHLabel.Size = new System.Drawing.Size(66, 13);
             nGAYSINHLabel.TabIndex = 18;
@@ -138,7 +138,7 @@ namespace NHANVIEN_CDCNPM
             // mANVLabel
             // 
             mANVLabel.AutoSize = true;
-            mANVLabel.Location = new System.Drawing.Point(29, 376);
+            mANVLabel.Location = new System.Drawing.Point(34, 293);
             mANVLabel.Name = "mANVLabel";
             mANVLabel.Size = new System.Drawing.Size(41, 13);
             mANVLabel.TabIndex = 19;
@@ -170,7 +170,7 @@ namespace NHANVIEN_CDCNPM
             // 
             // btnThoat
             // 
-            this.btnThoat.Location = new System.Drawing.Point(771, 293);
+            this.btnThoat.Location = new System.Drawing.Point(776, 250);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(75, 23);
             this.btnThoat.TabIndex = 2;
@@ -210,7 +210,7 @@ namespace NHANVIEN_CDCNPM
             this.nHANVIENGridControl.Location = new System.Drawing.Point(26, 12);
             this.nHANVIENGridControl.MainView = this.gridView1;
             this.nHANVIENGridControl.Name = "nHANVIENGridControl";
-            this.nHANVIENGridControl.Size = new System.Drawing.Size(726, 341);
+            this.nHANVIENGridControl.Size = new System.Drawing.Size(648, 216);
             this.nHANVIENGridControl.TabIndex = 4;
             this.nHANVIENGridControl.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -292,7 +292,7 @@ namespace NHANVIEN_CDCNPM
             // textEditHo
             // 
             this.textEditHo.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.bdsNhanVien, "HO", true));
-            this.textEditHo.Location = new System.Drawing.Point(280, 373);
+            this.textEditHo.Location = new System.Drawing.Point(285, 290);
             this.textEditHo.Name = "textEditHo";
             this.textEditHo.Size = new System.Drawing.Size(100, 20);
             this.textEditHo.TabIndex = 8;
@@ -300,7 +300,7 @@ namespace NHANVIEN_CDCNPM
             // textEditTen
             // 
             this.textEditTen.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.bdsNhanVien, "TEN", true));
-            this.textEditTen.Location = new System.Drawing.Point(492, 377);
+            this.textEditTen.Location = new System.Drawing.Point(497, 294);
             this.textEditTen.Name = "textEditTen";
             this.textEditTen.Size = new System.Drawing.Size(100, 20);
             this.textEditTen.TabIndex = 10;
@@ -313,7 +313,7 @@ namespace NHANVIEN_CDCNPM
             this.cmbPhai.Items.AddRange(new object[] {
             "Nam",
             "Nữ"});
-            this.cmbPhai.Location = new System.Drawing.Point(725, 373);
+            this.cmbPhai.Location = new System.Drawing.Point(725, 294);
             this.cmbPhai.Name = "cmbPhai";
             this.cmbPhai.Size = new System.Drawing.Size(121, 21);
             this.cmbPhai.TabIndex = 12;
@@ -321,7 +321,7 @@ namespace NHANVIEN_CDCNPM
             // textEditDiaChi
             // 
             this.textEditDiaChi.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.bdsNhanVien, "DIACHI", true));
-            this.textEditDiaChi.Location = new System.Drawing.Point(524, 411);
+            this.textEditDiaChi.Location = new System.Drawing.Point(529, 328);
             this.textEditDiaChi.Name = "textEditDiaChi";
             this.textEditDiaChi.Size = new System.Drawing.Size(322, 20);
             this.textEditDiaChi.TabIndex = 14;
@@ -329,7 +329,7 @@ namespace NHANVIEN_CDCNPM
             // textEditLuong
             // 
             this.textEditLuong.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.bdsNhanVien, "LUONG", true));
-            this.textEditLuong.Location = new System.Drawing.Point(280, 415);
+            this.textEditLuong.Location = new System.Drawing.Point(285, 332);
             this.textEditLuong.Name = "textEditLuong";
             this.textEditLuong.Size = new System.Drawing.Size(100, 20);
             this.textEditLuong.TabIndex = 18;
@@ -338,7 +338,7 @@ namespace NHANVIEN_CDCNPM
             // 
             this.nGAYSINHDateEdit.DataBindings.Add(new System.Windows.Forms.Binding("EditValue", this.bdsNhanVien, "NGAYSINH", true));
             this.nGAYSINHDateEdit.EditValue = null;
-            this.nGAYSINHDateEdit.Location = new System.Drawing.Point(101, 415);
+            this.nGAYSINHDateEdit.Location = new System.Drawing.Point(106, 332);
             this.nGAYSINHDateEdit.Name = "nGAYSINHDateEdit";
             this.nGAYSINHDateEdit.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
@@ -350,7 +350,7 @@ namespace NHANVIEN_CDCNPM
             // tbMaNV
             // 
             this.tbMaNV.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.bdsNhanVien, "MANV", true));
-            this.tbMaNV.Location = new System.Drawing.Point(76, 373);
+            this.tbMaNV.Location = new System.Drawing.Point(81, 290);
             this.tbMaNV.Name = "tbMaNV";
             this.tbMaNV.ReadOnly = true;
             this.tbMaNV.Size = new System.Drawing.Size(100, 20);
@@ -380,7 +380,7 @@ namespace NHANVIEN_CDCNPM
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(882, 455);
+            this.ClientSize = new System.Drawing.Size(869, 394);
             this.Controls.Add(this.btn_DelayRead);
             this.Controls.Add(this.btnRefresh);
             this.Controls.Add(mANVLabel);

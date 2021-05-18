@@ -14,7 +14,7 @@ namespace NHANVIEN_CDCNPM
         /// The main entry point for the application.
         /// </summary>
         /// 
-        public static Boolean isChange = false;
+        
 
         [STAThread]
 

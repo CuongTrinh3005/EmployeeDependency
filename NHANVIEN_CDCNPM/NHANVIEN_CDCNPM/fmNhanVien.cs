@@ -148,6 +148,12 @@ namespace NHANVIEN_CDCNPM
 
         private void btnXoa_Click(object sender, EventArgs e)
         {
+            if(bdsNhanVien.Count == 0)
+            {
+                btnXoa.Enabled = false;
+                btnGhi.Enabled = true;
+            }
+
             DialogResult userChoice = MessageBox.Show("Bạn có chắc chắc muốn xóa?", "Xác nhận", MessageBoxButtons.YesNo);
             if (userChoice == DialogResult.Yes)
             {
